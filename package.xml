@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<?xml-model
+   href="http://download.ros.org/schema/package_format3.xsd"
+   schematypens="http://www.w3.org/2001/XMLSchema"?>
+
+<package format="3">
+  <name>cmake_always_do</name>
+  <version>1.0.0</version>
+  <description>macro ensuring some macro will always be run, despite the cache</description>
+  <author email="vincent.berenz@tuebingen.mpg.de">Vincent Berenz</author>
+  <maintainer email="vincent.berenz@tuebingen.mpg.de">Vincent Berenz</maintainer>
+  <license>BSD 3-Clause</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+
+</package>
