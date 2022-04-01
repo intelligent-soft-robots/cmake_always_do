@@ -1,2 +1,2 @@
 *~
-./cmake/always_do.cmake
+cmake/always_do.cmake
